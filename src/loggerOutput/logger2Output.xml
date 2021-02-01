@@ -1,0 +1,2137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-01-20T14:51:44</date>
+  <millis>1611150704086</millis>
+  <sequence>0</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>abrirConexion</method>
+  <thread>1</thread>
+  <message> ---&gt; Conexión con BD establecida &lt;---</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:53</date>
+  <millis>1611150713872</millis>
+  <sequence>1</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO inigod EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:53</date>
+  <millis>1611150713880</millis>
+  <sequence>2</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO inigod EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:53</date>
+  <millis>1611150713882</millis>
+  <sequence>3</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO inigod EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:53</date>
+  <millis>1611150713883</millis>
+  <sequence>4</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL USUARIO inigod ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714834</millis>
+  <sequence>5</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 567 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714835</millis>
+  <sequence>6</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 234 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714837</millis>
+  <sequence>7</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 765 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714838</millis>
+  <sequence>8</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714839</millis>
+  <sequence>9</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714840</millis>
+  <sequence>10</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714841</millis>
+  <sequence>11</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714842</millis>
+  <sequence>12</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 765 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714843</millis>
+  <sequence>13</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> LA TEMPORADA 234 ES DEVUELTA</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714844</millis>
+  <sequence>14</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 567 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714948</millis>
+  <sequence>15</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 234 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714951</millis>
+  <sequence>16</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 123 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714952</millis>
+  <sequence>17</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714953</millis>
+  <sequence>18</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714954</millis>
+  <sequence>19</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714955</millis>
+  <sequence>20</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714956</millis>
+  <sequence>21</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 123 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:54</date>
+  <millis>1611150714956</millis>
+  <sequence>22</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 234 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715025</millis>
+  <sequence>23</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 235 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715027</millis>
+  <sequence>24</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 124 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715027</millis>
+  <sequence>25</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715028</millis>
+  <sequence>26</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715028</millis>
+  <sequence>27</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715029</millis>
+  <sequence>28</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715029</millis>
+  <sequence>29</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 124 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715030</millis>
+  <sequence>30</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 235 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715131</millis>
+  <sequence>31</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 236 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715132</millis>
+  <sequence>32</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 125 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715133</millis>
+  <sequence>33</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715133</millis>
+  <sequence>34</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715133</millis>
+  <sequence>35</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715134</millis>
+  <sequence>36</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715134</millis>
+  <sequence>37</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 125 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715134</millis>
+  <sequence>38</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 236 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715271</millis>
+  <sequence>39</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 237 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715272</millis>
+  <sequence>40</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 126 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715273</millis>
+  <sequence>41</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715273</millis>
+  <sequence>42</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715274</millis>
+  <sequence>43</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715274</millis>
+  <sequence>44</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715275</millis>
+  <sequence>45</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 126 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715275</millis>
+  <sequence>46</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 237 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715406</millis>
+  <sequence>47</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 238 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715407</millis>
+  <sequence>48</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 127 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715407</millis>
+  <sequence>49</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715408</millis>
+  <sequence>50</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715408</millis>
+  <sequence>51</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715409</millis>
+  <sequence>52</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715409</millis>
+  <sequence>53</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 127 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715409</millis>
+  <sequence>54</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 238 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715590</millis>
+  <sequence>55</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 239 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715591</millis>
+  <sequence>56</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 128 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715592</millis>
+  <sequence>57</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715592</millis>
+  <sequence>58</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715593</millis>
+  <sequence>59</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715593</millis>
+  <sequence>60</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715594</millis>
+  <sequence>61</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 128 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715594</millis>
+  <sequence>62</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 239 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715695</millis>
+  <sequence>63</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 240 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715696</millis>
+  <sequence>64</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 129 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715697</millis>
+  <sequence>65</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715697</millis>
+  <sequence>66</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715698</millis>
+  <sequence>67</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715698</millis>
+  <sequence>68</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715698</millis>
+  <sequence>69</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 129 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715699</millis>
+  <sequence>70</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 240 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715740</millis>
+  <sequence>71</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 241 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715740</millis>
+  <sequence>72</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 130 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715741</millis>
+  <sequence>73</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715742</millis>
+  <sequence>74</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715743</millis>
+  <sequence>75</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715743</millis>
+  <sequence>76</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715744</millis>
+  <sequence>77</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 130 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715744</millis>
+  <sequence>78</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 241 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715825</millis>
+  <sequence>79</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 242 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715826</millis>
+  <sequence>80</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 131 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715827</millis>
+  <sequence>81</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715827</millis>
+  <sequence>82</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715827</millis>
+  <sequence>83</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715828</millis>
+  <sequence>84</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715828</millis>
+  <sequence>85</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 131 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:55</date>
+  <millis>1611150715828</millis>
+  <sequence>86</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 242 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716024</millis>
+  <sequence>87</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 243 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716025</millis>
+  <sequence>88</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 132 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716025</millis>
+  <sequence>89</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716026</millis>
+  <sequence>90</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716026</millis>
+  <sequence>91</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716026</millis>
+  <sequence>92</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716026</millis>
+  <sequence>93</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 132 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716026</millis>
+  <sequence>94</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 243 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716057</millis>
+  <sequence>95</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 567 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716058</millis>
+  <sequence>96</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 234 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716059</millis>
+  <sequence>97</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 765 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716059</millis>
+  <sequence>98</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716060</millis>
+  <sequence>99</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716060</millis>
+  <sequence>100</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716060</millis>
+  <sequence>101</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716061</millis>
+  <sequence>102</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 765 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716061</millis>
+  <sequence>103</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> LA TEMPORADA 234 ES DEVUELTA</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716061</millis>
+  <sequence>104</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 567 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716102</millis>
+  <sequence>105</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 234 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716102</millis>
+  <sequence>106</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 123 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716103</millis>
+  <sequence>107</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716103</millis>
+  <sequence>108</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716103</millis>
+  <sequence>109</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716104</millis>
+  <sequence>110</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716104</millis>
+  <sequence>111</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 123 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716104</millis>
+  <sequence>112</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 234 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716155</millis>
+  <sequence>113</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 235 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716155</millis>
+  <sequence>114</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 124 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716156</millis>
+  <sequence>115</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716157</millis>
+  <sequence>116</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716157</millis>
+  <sequence>117</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716157</millis>
+  <sequence>118</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716158</millis>
+  <sequence>119</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 124 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716158</millis>
+  <sequence>120</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 235 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716221</millis>
+  <sequence>121</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 236 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716221</millis>
+  <sequence>122</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 125 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716222</millis>
+  <sequence>123</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716222</millis>
+  <sequence>124</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716222</millis>
+  <sequence>125</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716223</millis>
+  <sequence>126</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716223</millis>
+  <sequence>127</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 125 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716223</millis>
+  <sequence>128</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 236 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716374</millis>
+  <sequence>129</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 237 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716375</millis>
+  <sequence>130</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 126 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716375</millis>
+  <sequence>131</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716376</millis>
+  <sequence>132</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716376</millis>
+  <sequence>133</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716377</millis>
+  <sequence>134</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716377</millis>
+  <sequence>135</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 126 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716377</millis>
+  <sequence>136</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 237 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716477</millis>
+  <sequence>137</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 238 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716478</millis>
+  <sequence>138</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 127 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716479</millis>
+  <sequence>139</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716479</millis>
+  <sequence>140</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716479</millis>
+  <sequence>141</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716480</millis>
+  <sequence>142</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716480</millis>
+  <sequence>143</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 127 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716480</millis>
+  <sequence>144</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 238 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716641</millis>
+  <sequence>145</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 239 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716642</millis>
+  <sequence>146</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 128 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716642</millis>
+  <sequence>147</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716642</millis>
+  <sequence>148</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716643</millis>
+  <sequence>149</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716643</millis>
+  <sequence>150</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716643</millis>
+  <sequence>151</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 128 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716644</millis>
+  <sequence>152</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 239 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716738</millis>
+  <sequence>153</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 240 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716738</millis>
+  <sequence>154</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 129 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716739</millis>
+  <sequence>155</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716739</millis>
+  <sequence>156</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716739</millis>
+  <sequence>157</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716739</millis>
+  <sequence>158</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716740</millis>
+  <sequence>159</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 129 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716740</millis>
+  <sequence>160</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 240 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716777</millis>
+  <sequence>161</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 241 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716777</millis>
+  <sequence>162</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 130 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716778</millis>
+  <sequence>163</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716778</millis>
+  <sequence>164</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716778</millis>
+  <sequence>165</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716779</millis>
+  <sequence>166</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716779</millis>
+  <sequence>167</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 130 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716779</millis>
+  <sequence>168</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 241 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716858</millis>
+  <sequence>169</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 242 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716859</millis>
+  <sequence>170</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 131 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716859</millis>
+  <sequence>171</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716859</millis>
+  <sequence>172</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716860</millis>
+  <sequence>173</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716860</millis>
+  <sequence>174</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716860</millis>
+  <sequence>175</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 131 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:56</date>
+  <millis>1611150716860</millis>
+  <sequence>176</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 242 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:57</date>
+  <millis>1611150717062</millis>
+  <sequence>177</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 243 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:57</date>
+  <millis>1611150717063</millis>
+  <sequence>178</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 132 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:57</date>
+  <millis>1611150717064</millis>
+  <sequence>179</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:57</date>
+  <millis>1611150717064</millis>
+  <sequence>180</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:57</date>
+  <millis>1611150717064</millis>
+  <sequence>181</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:57</date>
+  <millis>1611150717064</millis>
+  <sequence>182</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:57</date>
+  <millis>1611150717065</millis>
+  <sequence>183</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 132 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:57</date>
+  <millis>1611150717065</millis>
+  <sequence>184</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 243 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:58</date>
+  <millis>1611150718742</millis>
+  <sequence>185</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 236 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:58</date>
+  <millis>1611150718743</millis>
+  <sequence>186</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 125 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:58</date>
+  <millis>1611150718743</millis>
+  <sequence>187</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 3 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:58</date>
+  <millis>1611150718743</millis>
+  <sequence>188</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL TIPO 3 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:58</date>
+  <millis>1611150718744</millis>
+  <sequence>189</sequence>
+  <logger>loggerOutput</logger>
+  <level>SEVERE</level>
+  <class>server.Api</class>
+  <method>checkObjeto</method>
+  <thread>21</thread>
+  <message> EL OBJETO 4 EXISTE </message>
+</record>
+<record>
+  <date>2021-01-20T14:51:58</date>
+  <millis>1611150718744</millis>
+  <sequence>190</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL GENERO 4 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:58</date>
+  <millis>1611150718744</millis>
+  <sequence>191</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL CONTENIDO 125 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:51:58</date>
+  <millis>1611150718745</millis>
+  <sequence>192</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>getObjectFromDB</method>
+  <thread>21</thread>
+  <message> EL VIDEO 236 ES DEVUELTO</message>
+</record>
+<record>
+  <date>2021-01-20T14:52:09</date>
+  <millis>1611150729241</millis>
+  <sequence>193</sequence>
+  <logger>loggerOutput</logger>
+  <level>INFO</level>
+  <class>server.Api</class>
+  <method>cerrarConexion</method>
+  <thread>21</thread>
+  <message> ---&gt; Conexión con BD cerrada correctamente &lt;---</message>
+</record>
