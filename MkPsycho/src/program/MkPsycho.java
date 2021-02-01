@@ -72,7 +72,7 @@ public class MkPsycho extends JFrame{
 
 	private static final long serialVersionUID = 1L;
 
-	//	MEDIA GENERAL
+	//	MEDIA GENERAL 
 
 	public static String background = "/media/Background.jpg"; //1136 × 936
 	public static String mkpe = "/media/MK.P.E.png"; 
