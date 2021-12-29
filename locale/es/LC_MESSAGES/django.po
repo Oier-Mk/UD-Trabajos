@@ -1,0 +1,372 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-15 22:22+0100\n"
+"PO-Revision-Date: 2021-12-15 22:22+0000\n"
+"Last-Translator:   <admin@admin.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Translated-Using: django-rosetta 0.9.7\n"
+
+#: .\mammamiaApp\models.py:7 .\mammamiaApp\models.py:17
+#: .\mammamiaApp\models.py:28
+msgid "name"
+msgstr "nombre"
+
+#: .\mammamiaApp\models.py:8
+msgid "width mm"
+msgstr "grosor mm"
+
+#: .\mammamiaApp\models.py:9
+msgid "flour Type"
+msgstr "tipo harina"
+
+#: .\mammamiaApp\models.py:10
+msgid "supplement"
+msgstr "suplemento"
+
+#: .\mammamiaApp\models.py:18
+msgid "origin"
+msgstr "origen"
+
+#: .\mammamiaApp\models.py:19
+msgid "kcal"
+msgstr "kcal"
+
+#: .\mammamiaApp\models.py:29
+msgid "price"
+msgstr "precio"
+
+#: .\mammamiaApp\templates\base.html:71
+msgid "Home"
+msgstr "Inicio"
+
+#: .\mammamiaApp\templates\base.html:74
+#: .\mammamiaApp\templates\detalleIngrediente.html:19
+#: .\mammamiaApp\templates\detalleMasa.html:20
+#: .\mammamiaApp\templates\listaPizzas.html:5
+msgid "Pizzas"
+msgstr "Pizzas"
+
+#: .\mammamiaApp\templates\base.html:77
+msgid "Doughs"
+msgstr "Masas"
+
+#: .\mammamiaApp\templates\base.html:80
+#: .\mammamiaApp\templates\detallePizza.html:19
+#: .\mammamiaApp\templates\listaIngredientes.html:5
+msgid "Ingredients"
+msgstr "Ingredientes"
+
+#: .\mammamiaApp\templates\base.html:83
+msgid "Orders"
+msgstr "Pedidos"
+
+#: .\mammamiaApp\templates\base.html:114
+msgid "Featured pizzas"
+msgstr "Pizzas destacadas"
+
+#: .\mammamiaApp\templates\detalleBase.html:5
+#: .\mammamiaApp\templates\pedido.html:9
+#: .\mammamiaApp\templates\portada.html:9
+msgid "The best pizzas at the best price"
+msgstr "Las mejores pizzas al mejor precio"
+
+#: .\mammamiaApp\templates\detalleBase.html:6
+#: .\mammamiaApp\templates\pedido.html:11
+#: .\mammamiaApp\templates\portada.html:11
+msgid "Pizzas of all flavors for all tastes"
+msgstr "Pizzas de todos los sabores para todos los gustos"
+
+#: .\mammamiaApp\templates\detalleBase.html:32
+msgid "List"
+msgstr "Lista"
+
+#: .\mammamiaApp\templates\detalleIngrediente.html:14
+msgid "Origin"
+msgstr "Origen"
+
+#: .\mammamiaApp\templates\detalleIngrediente.html:15
+msgid "per"
+msgstr "per"
+
+#: .\mammamiaApp\templates\detalleIngrediente.html:23
+msgid "Enjoy the flavor of this ingredient with these pizzas."
+msgstr "Disfruta del sabor de este ingrediente en estas pizzas."
+
+#: .\mammamiaApp\templates\detalleIngrediente.html:35
+msgid "No pizzas found."
+msgstr "No se han encontrado pizzas."
+
+#: .\mammamiaApp\templates\detalleMasa.html:14
+msgid "Thickness"
+msgstr "Grosor"
+
+#: .\mammamiaApp\templates\detalleMasa.html:15
+msgid "Flour"
+msgstr "Harina"
+
+#: .\mammamiaApp\templates\detalleMasa.html:16
+msgid "Supplement"
+msgstr "Suplemento"
+
+#: .\mammamiaApp\templates\detalleMasa.html:24
+msgid "Discover what pizzas we have with this dough."
+msgstr "Descubre que pizzas tienen esta masa."
+
+#: .\mammamiaApp\templates\detalleMasa.html:36
+#: .\mammamiaApp\templates\pedido.html:52
+msgid "No pizzas were found."
+msgstr "No se han encontrado pizzas."
+
+#: .\mammamiaApp\templates\detallePizza.html:14
+msgid "Price"
+msgstr "Precio"
+
+#: .\mammamiaApp\templates\detallePizza.html:15
+msgid "Dough type"
+msgstr "Tipo de masa"
+
+#: .\mammamiaApp\templates\detallePizza.html:23
+msgid "Find out what this pizza is made of."
+msgstr "Descubre de qué esta hecha esta pizza."
+
+#: .\mammamiaApp\templates\detallePizza.html:35
+msgid "No ingredients found."
+msgstr "No se han encontrado ingredientes."
+
+#: .\mammamiaApp\templates\listaBase.html:4
+msgid "List of"
+msgstr "Lista de"
+
+#: .\mammamiaApp\templates\listaBase.html:6
+msgid "Research our products"
+msgstr "Investiga nuestros productos"
+
+#: .\mammamiaApp\templates\listaIngredientes.html:12
+msgid "Brought directly from "
+msgstr "Traído directamente desde "
+
+#: .\mammamiaApp\templates\listaIngredientes.html:13
+#: .\mammamiaApp\templates\listaMasas.html:13
+#: .\mammamiaApp\templates\listaPizzas.html:15
+#: .\mammamiaApp\templates\portada.html:30
+msgid "See more"
+msgstr "Ver más"
+
+#: .\mammamiaApp\templates\listaIngredientes.html:16
+msgid "No ingredients found"
+msgstr "No se encontraron clientes"
+
+#: .\mammamiaApp\templates\listaMasas.html:5
+msgid "Doughs "
+msgstr "Masas "
+
+#: .\mammamiaApp\templates\listaMasas.html:12
+msgid "Suplement of"
+msgstr "Suplemento de"
+
+#: .\mammamiaApp\templates\listaMasas.html:16
+#: .\mammamiaApp\templates\listaPizzas.html:19
+msgid "No doughs have been found."
+msgstr "No se han encontrado masas."
+
+#: .\mammamiaApp\templates\listaPizzas.html:14
+msgid "For only"
+msgstr "Solo por"
+
+#: .\mammamiaApp\templates\pedido.html:27
+msgid "Let's Start your order!"
+msgstr "¡Empezemos tu pedido!"
+
+#: .\mammamiaApp\templates\pedido.html:31
+msgid "Name"
+msgstr "Nombre"
+
+#: .\mammamiaApp\templates\pedido.html:36
+msgid "Surname"
+msgstr "Apellido"
+
+#: .\mammamiaApp\templates\pedido.html:40
+msgid "E-mail"
+msgstr "Correo electrónico"
+
+#: .\mammamiaApp\templates\pedido.html:43
+msgid "Street"
+msgstr "Calle"
+
+#: .\mammamiaApp\templates\pedido.html:45
+msgid "Postal code"
+msgstr "Código postal"
+
+#: .\mammamiaApp\templates\pedido.html:56
+msgid "Select the day and time you want to receive your pizza"
+msgstr "Elige el día y la hora de recibimiento de la pizza"
+
+#: .\mammamiaApp\templates\pedido.html:58
+msgid "Total price"
+msgstr "Precio total"
+
+#: .\mammamiaApp\templates\pedido.html:59
+msgid "Comments"
+msgstr "Comentarios"
+
+#: .\mammamiaApp\templates\pedido.html:63
+msgid "Your order has been received."
+msgstr "Tu pedido ha sido recibido."
+
+#: .\mammamiaApp\templates\pedido.html:63
+msgid "Send Order Now"
+msgstr "Realiza el Pedido Ahora"
+
+#: .\mammamiaApp\templates\pedido.html:76
+#: .\mammamiaApp\templates\portada.html:46
+msgid "Our Pizzas"
+msgstr "Nuestras pizzas"
+
+#: .\mammamiaApp\templates\pedido.html:77
+#: .\mammamiaApp\templates\portada.html:47
+msgid "In this places of the world"
+msgstr "En estos lugares del mundo"
+
+#: .\mammamiaApp\templates\pedido.html:83
+#: .\mammamiaApp\templates\portada.html:53
+msgid "Europe"
+msgstr "Europa"
+
+#: .\mammamiaApp\templates\pedido.html:89
+#: .\mammamiaApp\templates\portada.html:59
+msgid "Asia"
+msgstr "Asia"
+
+#: .\mammamiaApp\templates\pedido.html:95
+#: .\mammamiaApp\templates\portada.html:65
+msgid "Africa"
+msgstr "África"
+
+#: .\mammamiaApp\templates\pedido.html:101
+#: .\mammamiaApp\templates\portada.html:71
+msgid "South America"
+msgstr "América del sur"
+
+#: .\mammamiaApp\templates\portada.html:27
+msgid "Dough"
+msgstr "Masa"
+
+#: .\mammamiaApp\templates\portada.html:29
+msgid "Only for"
+msgstr "Solo por"
+
+#: .\mammamiaApp\templates\portada.html:35
+msgid "No doughs were found."
+msgstr "No se han encontrado masas."
+
+#: .\mammamiaApp\templates\success.html:9
+msgid "Your order has been received!"
+msgstr "Tu pedido ha sido recibido!"
+
+#: .\mammamiaApp\templates\success.html:11
+msgid "Please check your email for further detail."
+msgstr "Consulte su correo electrónico para obtener más detalles."
+
+#: .\mammamiaApp\templates\success.html:12
+msgid "Email sent to:"
+msgstr "Correo enviado a:"
+
+#: .\mammamiaApp\views.py:166
+#| msgid "Your order has been received."
+msgid "Your MammaMia order has been received."
+msgstr "Tu pedido MammaMia ha sido recibido."
+
+#: .\mammamiaApp\views.py:171
+msgid "Hello {} {}.\n"
+msgstr "Hola {} {}.\n"
+
+#: .\mammamiaApp\views.py:172
+msgid "Your order has been successfully received.\n"
+msgstr "Tu pedido ha sido recibido satisfactoriamente.\n"
+
+#: .\mammamiaApp\views.py:173
+msgid "The order contains: {}"
+msgstr "El pedido contiene: {}"
+
+#: .\mammamiaApp\views.py:174
+msgid "The total cost of the order was: {}€\n"
+msgstr "El coste total del pedido fue: {}€\n"
+
+#: .\mammamiaApp\views.py:175
+msgid ""
+"They will be sent on {} at {} to this address: {} with postal code: {}.\n"
+msgstr ""
+"Se enviarán el {} a las {} a esta dirección: {} con código postal: {}.\n"
+
+#: .\mammamiaApp\views.py:176
+msgid ""
+"If there are any problems you will be contacted at this same email address."
+msgstr ""
+"Si hay algún problema, nos pondremos en contacto con usted en esta misma "
+"dirección de correo electrónico."
+
+#: .\mammamia\settings.py:125
+msgid "English"
+msgstr "Inglés"
+
+#: .\mammamia\settings.py:126
+msgid "Spanish"
+msgstr "Español"
+
+#: .\mammamia\settings.py:127
+msgid "Italian"
+msgstr "Italiano"
+
+#: .\mammamia\settings.py:128
+msgid "Japanese"
+msgstr "Japonés"
+
+#: .\mammamia\urls.py:22
+msgid "admin/"
+msgstr ""
+
+#~ msgid "Order:\n"
+#~ msgstr "Pedidos:\n"
+
+#~ msgid "\tPizzas: {}"
+#~ msgstr "Pizzas: {}"
+
+#~ msgid "\tComments:\n"
+#~ msgstr "Comentarios:\n"
+
+#~ msgid "surname"
+#~ msgstr "apellido"
+
+#~ msgid "street"
+#~ msgstr "calle"
+
+#~ msgid "postal code"
+#~ msgstr "código postal"
+
+#~ msgid "telephone number"
+#~ msgstr "número de teléfono"
+
+#~ msgid "Language"
+#~ msgstr "Idioma"
+
+#~ msgid "Postal_code"
+#~ msgstr "Codigo_Postal"
+
+#~ msgid "dough"
+#~ msgstr "masa"
+
+#~ msgid "pizzas"
+#~ msgstr "pizzas"

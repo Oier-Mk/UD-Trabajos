@@ -1,0 +1,18 @@
+{% extends "listaBase.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block models %} {% trans "Ingredients" %} {% endblock %} <!--Detalla el nombre del titulo-->
+
+{% block listaItems %} <!--Detalla la lista de ingredientes-->
+  {% for ingrediente in lista_ingredientes|dictsort:"nombre"  %}
+  <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">
+    <img src="{% static 'img/' %}ingrediente-{{ingrediente.nombre|lower|cut:" "}}.jpg" class="img-fluid img-lista" alt="{{ingrediente.nombre}}">
+    <h3 class="tm-color-primary tm-article-title-1">{{ingrediente.nombre}}</h3>
+    <p> {% trans "Brought directly from " %}{{ingrediente.origen}}</p>
+    <a href="{% url 'detalle_ingrediente' ingrediente.id %}" class="text-uppercase tm-color-primary tm-font-semibold">{% trans "See more" %}</a>
+  </article>
+  {% empty %}
+      <p>{% trans "No ingredients found" %}</p>
+  {% endfor %}
+{% endblock %}

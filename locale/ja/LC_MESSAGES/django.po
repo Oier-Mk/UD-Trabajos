@@ -1,0 +1,363 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-15 22:22+0100\n"
+"PO-Revision-Date: 2021-12-15 22:24+0000\n"
+"Last-Translator:   <admin@admin.com>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Translated-Using: django-rosetta 0.9.7\n"
+
+#: .\mammamiaApp\models.py:7 .\mammamiaApp\models.py:17
+#: .\mammamiaApp\models.py:28
+msgid "name"
+msgstr "名前"
+
+#: .\mammamiaApp\models.py:8
+msgid "width mm"
+msgstr "幅 mm"
+
+#: .\mammamiaApp\models.py:9
+msgid "flour Type"
+msgstr "小麦粉の種類"
+
+#: .\mammamiaApp\models.py:10
+msgid "supplement"
+msgstr "補足"
+
+#: .\mammamiaApp\models.py:18
+msgid "origin"
+msgstr "オリジン"
+
+#: .\mammamiaApp\models.py:19
+msgid "kcal"
+msgstr "kcal"
+
+#: .\mammamiaApp\models.py:29
+msgid "price"
+msgstr "価格"
+
+#: .\mammamiaApp\templates\base.html:71
+msgid "Home"
+msgstr "ホーム"
+
+#: .\mammamiaApp\templates\base.html:74
+#: .\mammamiaApp\templates\detalleIngrediente.html:19
+#: .\mammamiaApp\templates\detalleMasa.html:20
+#: .\mammamiaApp\templates\listaPizzas.html:5
+msgid "Pizzas"
+msgstr "ピッツァ"
+
+#: .\mammamiaApp\templates\base.html:77
+msgid "Doughs"
+msgstr "パン生地"
+
+#: .\mammamiaApp\templates\base.html:80
+#: .\mammamiaApp\templates\detallePizza.html:19
+#: .\mammamiaApp\templates\listaIngredientes.html:5
+msgid "Ingredients"
+msgstr "材料"
+
+#: .\mammamiaApp\templates\base.html:83
+msgid "Orders"
+msgstr "注文"
+
+#: .\mammamiaApp\templates\base.html:114
+msgid "Featured pizzas"
+msgstr "おすすめのピッツァ"
+
+#: .\mammamiaApp\templates\detalleBase.html:5
+#: .\mammamiaApp\templates\pedido.html:9
+#: .\mammamiaApp\templates\portada.html:9
+msgid "The best pizzas at the best price"
+msgstr "最高のピッツァを最高の価格で"
+
+#: .\mammamiaApp\templates\detalleBase.html:6
+#: .\mammamiaApp\templates\pedido.html:11
+#: .\mammamiaApp\templates\portada.html:11
+msgid "Pizzas of all flavors for all tastes"
+msgstr "すべての人のためのすべてのフレーバーのピッツァ"
+
+#: .\mammamiaApp\templates\detalleBase.html:32
+msgid "List"
+msgstr "リスト"
+
+#: .\mammamiaApp\templates\detalleIngrediente.html:14
+msgid "Origin"
+msgstr "オリジン"
+
+#: .\mammamiaApp\templates\detalleIngrediente.html:15
+msgid "per"
+msgstr "per"
+
+#: .\mammamiaApp\templates\detalleIngrediente.html:23
+msgid "Enjoy the flavor of this ingredient with these pizzas."
+msgstr "この素材の味を、このピッツァでお楽しみください."
+
+#: .\mammamiaApp\templates\detalleIngrediente.html:35
+msgid "No pizzas found."
+msgstr "ピッツァは見つかりませんでした."
+
+#: .\mammamiaApp\templates\detalleMasa.html:14
+msgid "Thickness"
+msgstr "厚さ"
+
+#: .\mammamiaApp\templates\detalleMasa.html:15
+msgid "Flour"
+msgstr "小麦粉"
+
+#: .\mammamiaApp\templates\detalleMasa.html:16
+msgid "Supplement"
+msgstr "補足"
+
+#: .\mammamiaApp\templates\detalleMasa.html:24
+msgid "Discover what pizzas we have with this dough."
+msgstr "この生地を使ってどんなピザができるのか見てみましょう."
+
+#: .\mammamiaApp\templates\detalleMasa.html:36
+#: .\mammamiaApp\templates\pedido.html:52
+msgid "No pizzas were found."
+msgstr "ピザは見つかりませんでした."
+
+#: .\mammamiaApp\templates\detallePizza.html:14
+msgid "Price"
+msgstr "価格"
+
+#: .\mammamiaApp\templates\detallePizza.html:15
+msgid "Dough type"
+msgstr "パン生地の種類"
+
+#: .\mammamiaApp\templates\detallePizza.html:23
+msgid "Find out what this pizza is made of."
+msgstr "このピザが何でできているのか、調べてみましょう."
+
+#: .\mammamiaApp\templates\detallePizza.html:35
+msgid "No ingredients found."
+msgstr "成分は見つかりませんでした."
+
+#: .\mammamiaApp\templates\listaBase.html:4
+msgid "List of"
+msgstr "リスト :"
+
+#: .\mammamiaApp\templates\listaBase.html:6
+msgid "Research our products"
+msgstr "製品情報"
+
+#: .\mammamiaApp\templates\listaIngredientes.html:12
+msgid "Brought directly from "
+msgstr "から直接持ってきた:"
+
+#: .\mammamiaApp\templates\listaIngredientes.html:13
+#: .\mammamiaApp\templates\listaMasas.html:13
+#: .\mammamiaApp\templates\listaPizzas.html:15
+#: .\mammamiaApp\templates\portada.html:30
+msgid "See more"
+msgstr "続きを見る"
+
+#: .\mammamiaApp\templates\listaIngredientes.html:16
+msgid "No ingredients found"
+msgstr "成分は見つかりませんでした"
+
+#: .\mammamiaApp\templates\listaMasas.html:5
+msgid "Doughs "
+msgstr "パン生地 "
+
+#: .\mammamiaApp\templates\listaMasas.html:12
+msgid "Suplement of"
+msgstr "補足 :"
+
+#: .\mammamiaApp\templates\listaMasas.html:16
+#: .\mammamiaApp\templates\listaPizzas.html:19
+msgid "No doughs have been found."
+msgstr "生地は見つかりませんでした."
+
+#: .\mammamiaApp\templates\listaPizzas.html:14
+msgid "For only"
+msgstr "たったの："
+
+#: .\mammamiaApp\templates\pedido.html:27
+msgid "Let's Start your order!"
+msgstr "注文を始めましょう！"
+
+#: .\mammamiaApp\templates\pedido.html:31
+msgid "Name"
+msgstr "名前"
+
+#: .\mammamiaApp\templates\pedido.html:36
+msgid "Surname"
+msgstr "姓"
+
+#: .\mammamiaApp\templates\pedido.html:40
+msgid "E-mail"
+msgstr "Eメール"
+
+#: .\mammamiaApp\templates\pedido.html:43
+msgid "Street"
+msgstr "住所"
+
+#: .\mammamiaApp\templates\pedido.html:45
+msgid "Postal code"
+msgstr "郵便番号"
+
+#: .\mammamiaApp\templates\pedido.html:56
+msgid "Select the day and time you want to receive your pizza"
+msgstr "ピザを受け取りたい日時を選択してください"
+
+#: .\mammamiaApp\templates\pedido.html:58
+msgid "Total price"
+msgstr "合計金額"
+
+#: .\mammamiaApp\templates\pedido.html:59
+msgid "Comments"
+msgstr "付注"
+
+#: .\mammamiaApp\templates\pedido.html:63
+msgid "Your order has been received."
+msgstr "ご注文は受信されました."
+
+#: .\mammamiaApp\templates\pedido.html:63
+msgid "Send Order Now"
+msgstr "今すぐ注文する"
+
+#: .\mammamiaApp\templates\pedido.html:76
+#: .\mammamiaApp\templates\portada.html:46
+msgid "Our Pizzas"
+msgstr "私たちのピザ"
+
+#: .\mammamiaApp\templates\pedido.html:77
+#: .\mammamiaApp\templates\portada.html:47
+msgid "In this places of the world"
+msgstr "世界のこの場所で"
+
+#: .\mammamiaApp\templates\pedido.html:83
+#: .\mammamiaApp\templates\portada.html:53
+msgid "Europe"
+msgstr "ヨーロッパ"
+
+#: .\mammamiaApp\templates\pedido.html:89
+#: .\mammamiaApp\templates\portada.html:59
+msgid "Asia"
+msgstr "アジア"
+
+#: .\mammamiaApp\templates\pedido.html:95
+#: .\mammamiaApp\templates\portada.html:65
+msgid "Africa"
+msgstr "アフリカ"
+
+#: .\mammamiaApp\templates\pedido.html:101
+#: .\mammamiaApp\templates\portada.html:71
+msgid "South America"
+msgstr "南アメリカ"
+
+#: .\mammamiaApp\templates\portada.html:27
+msgid "Dough"
+msgstr "パン生地"
+
+#: .\mammamiaApp\templates\portada.html:29
+msgid "Only for"
+msgstr "のみ:"
+
+#: .\mammamiaApp\templates\portada.html:35
+msgid "No doughs were found."
+msgstr "生地は見つかりませんでした."
+
+#: .\mammamiaApp\templates\success.html:9
+msgid "Your order has been received!"
+msgstr "ご注文は受信されました."
+
+#: .\mammamiaApp\templates\success.html:11
+msgid "Please check your email for further detail."
+msgstr "詳しくはメールでご確認ください."
+
+#: .\mammamiaApp\templates\success.html:12
+msgid "Email sent to:"
+msgstr "送信先メールアドレス:"
+
+#: .\mammamiaApp\views.py:166
+#| msgid "Your order has been received."
+msgid "Your MammaMia order has been received."
+msgstr "MammaMiaの注文を受け取りました."
+
+#: .\mammamiaApp\views.py:171
+msgid "Hello {} {}.\n"
+msgstr "こんにちは、{}・{}\n"
+
+#: .\mammamiaApp\views.py:172
+msgid "Your order has been successfully received.\n"
+msgstr "ご注文は正常に受信されています。\n"
+
+#: .\mammamiaApp\views.py:173
+msgid "The order contains: {}"
+msgstr "注文には{}が含まれています"
+
+#: .\mammamiaApp\views.py:174
+msgid "The total cost of the order was: {}€\n"
+msgstr "注文の合計金額は{}ユーロでした\n"
+
+#: .\mammamiaApp\views.py:175
+msgid ""
+"They will be sent on {} at {} to this address: {} with postal code: {}.\n"
+msgstr "これらは{}の{}でこのアドレスに送信されます: {}の住所です。郵便番号{}で.\n"
+
+#: .\mammamiaApp\views.py:176
+msgid ""
+"If there are any problems you will be contacted at this same email address."
+msgstr "問題が発生した場合は、この同じメールアドレスに連絡します."
+
+#: .\mammamia\settings.py:125
+msgid "English"
+msgstr "英語"
+
+#: .\mammamia\settings.py:126
+msgid "Spanish"
+msgstr "スペイン語"
+
+#: .\mammamia\settings.py:127
+msgid "Italian"
+msgstr "イタリア語"
+
+#: .\mammamia\settings.py:128
+msgid "Japanese"
+msgstr "日本語"
+
+#: .\mammamia\urls.py:22
+msgid "admin/"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Order:\n"
+#~ msgstr "注文"
+
+#, fuzzy
+#~ msgid "\tPizzas: {}"
+#~ msgstr "ピッツァ"
+
+#, fuzzy
+#~ msgid "\tComments:\n"
+#~ msgstr "付注"
+
+#~ msgid "surname"
+#~ msgstr "姓"
+
+#~ msgid "street"
+#~ msgstr "住所"
+
+#~ msgid "postal code"
+#~ msgstr "郵便番号"
+
+#~ msgid "telephone number"
+#~ msgstr "電話番号"
+
+#~ msgid "Language"
+#~ msgstr "言語"

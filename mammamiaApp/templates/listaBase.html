@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block tit_trian %}{% trans "List of" %} {% block models %}{% endblock %}{% endblock %}
+
+{% block subtit_trian %}{% trans "Research our products" %}{% endblock %}
+
+{% block content %}
+
+  <div class="container tm-pt-5 tm-pb-4">
+    <div class="row text-center">
+
+      {% block listaItems %} <!--Detalla la estructura de articulo de la lista de objetos-->
+      {%endblock%}
+
+
+    </div>
+  </div>
+
+{% endblock %}

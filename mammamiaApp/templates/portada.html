@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+Mamma Mia
+{% endblock %}
+
+{% block tit_trian %}{% trans "The best pizzas at the best price" %}{% endblock %}
+
+{% block subtit_trian %}{% trans "Pizzas of all flavors for all tastes" %}{% endblock %}
+
+{% block content %}
+
+<div class="tm-section tm-section-pad tm-bg-gray" id="tm-section-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+        <div class="tm-article-carousel">
+
+          {% for pizza in lista_min_p %}
+
+          <article class="tm-bg-white mr-2 tm-carousel-item">
+            <img src="{% static 'img/' %}pizza-{{pizza.nombre|lower|cut:" "}}.jpg" class="img-fluid img-detalle-main" alt="{{pizza.nombre}}">
+            <div class="tm-article-pad">
+              <header>
+                <h3 class="text-uppercase tm-article-title-2">{% trans "Dough" %} {{pizza.masa.nombre}}</h3>
+              </header>
+              <p>{{pizza.nombre}} ({% trans "Only for" %} {{pizza.precio}}€ !!)</p>
+              <a href="{% url 'detalle_pizza' pizza.id %}" class="text-uppercase btn-primary tm-btn-primary">{% trans "See more" %}</a>
+            </div>
+          </article>
+
+          {% empty %}
+          <p>{% trans "No doughs were found." %}</p>
+          {% endfor %}
+
+        </div>
+      </div>
+
+      <!--SIDEBAR O LO QUE SEA ESTO-->
+
+      <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 tm-recommended-container">
+        <div class="tm-bg-white">
+          <div class="tm-bg-primary tm-sidebar-pad">
+            <h3 class="tm-color-white tm-sidebar-title">{% trans "Our Pizzas" %}</h3>
+            <p class="tm-color-white tm-margin-b-0 tm-font-light">{% trans "In this places of the world" %}</p>
+            </div>
+            <div class="tm-sidebar-pad-2">
+              <a href="#" class="media tm-media tm-recommended-item">
+                <img src="{% static 'img/tn-img-01.jpg' %}" alt="Image">
+                <div class="media-body tm-media-body tm-bg-gray">
+                  <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">{% trans "Europe" %}</h4>
+                </div>
+              </a>
+              <a href="#" class="media tm-media tm-recommended-item">
+                <img src="{% static 'img/tn-img-02.jpg' %}" alt="Image">
+                <div class="media-body tm-media-body tm-bg-gray">
+                  <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">{% trans "Asia" %}</h4>
+                </div>
+              </a>
+              <a href="#" class="media tm-media tm-recommended-item">
+                <img src="{% static 'img/tn-img-03.jpg' %}" alt="Image">
+                <div class="media-body tm-media-body tm-bg-gray">
+                  <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">{% trans "Africa" %}</h4>
+                </div>
+              </a>
+              <a href="#" class="media tm-media tm-recommended-item">
+                <img src="{% static 'img/tn-img-04.jpg' %}" alt="Image">
+                <div class="media-body tm-media-body tm-bg-gray">
+                  <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">{% trans "South America" %}</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

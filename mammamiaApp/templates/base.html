@@ -1,0 +1,148 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="{ % trans "en" %}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Mamma Mia</title>
+  <!--
+
+  Tooplate 2095 Level
+
+  https://www.tooplate.com/view/2095-level
+
+-->
+  <!-- load stylesheets -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+  <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="{% static 'font-awesome/css/font-awesome.css' %}"> <!-- Font Awesome -->
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"> <!-- Bootstrap style -->
+  <link rel="stylesheet" href="{% static 'slick/slick.css' %}" />
+  <link rel="stylesheet" href="{% static 'slick/slick-theme.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/datepicker.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/tooplate-style.css' %}"> <!-- Templatemo style -->
+  <link rel="stylesheet" href="{% static 'css/extraImg.css' %}">
+
+  <!-- load JS files -->
+  <script src="{% static 'js/jquery-1.11.3.min.js' %}"></script> <!-- jQuery (https://jquery.com/download/) -->
+  <script src="{% static 'js/popper.min.js' %}"></script> <!-- https://popper.js.org/ -->
+  <script src="{% static 'js/bootstrap.min.js' %}"></script> <!-- https://getbootstrap.com/ -->
+  <script src="{% static 'js/datepicker.min.js' %}"></script> <!-- https://github.com/qodesmith/datepicker -->
+  <script src="{% static 'js/jquery.singlePageNav.min.js' %}"></script>
+  <script src="{% static 'js/extraScript.js' %}"></script>
+  <script src="{% static 'js/actionListeners.js' %}"> </script>
+
+  <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
+  <script src="{% static 'slick/slick.min.js' %}"></script> <!-- http://kenwheeler.github.io/slick/ -->
+  <script src="{% static 'slick/slick.js' %}"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js'"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js'"></script>
+<![endif]-->
+
+  <link rel="icon" href="{% static 'img/logo.png' %}" type="image/png">
+</head>
+
+<body>
+  <div class="tm-main-content" id="top">
+    <div class="tm-top-bar-bg"></div>
+    <div class="tm-top-bar" id="tm-top-bar">
+      <!-- Top Navbar -->
+      <div class="container">
+        <div class="row">
+
+          <nav class="navbar navbar-expand-lg narbar-light">
+            <a class="navbar-brand mr-auto" href="{% url 'portada' %}">
+              <img src="{% static 'img/logo.png' %}" alt="Site logo">
+              Mamma Mia
+            </a>
+            <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse"
+              data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'portada' %}">{% trans "Home" %}<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'pizzas' %}">{% trans "Pizzas" %}</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'masas' %}">{% trans "Doughs" %}</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'ingredientes' %}">{% trans "Ingredients" %}</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'pedido' %}">{% trans "Orders" %}</a>
+                </li>
+                <li class="nav-item">
+
+                  {% get_current_language as CURRENT_LANGUAGE %}
+                  {% get_available_languages as AVAILABLE_LANGUAGES %}
+                  {% get_language_info_list for AVAILABLE_LANGUAGES as languages %}
+
+                    <select class="form-control tm-select nav-item" onchange="location = this.value">
+                      {% for language in languages %}
+                        <option  class ="nav-link" value="/{{ language.code }}{{request.path|slice:'3:'}}" {% if language.code == CURRENT_LANGUAGE %} selected="yes" {% endif %}>
+                            {{ language.name_local }}
+                        </option>
+                      {% endfor %}
+
+                    </select>
+
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="tm-section-2">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="tm-section-title">{% block tit_trian %}{% endblock %}</h2>
+            <p class="tm-color-white tm-section-subtitle">{% block subtit_trian %}{% endblock %}</p>
+            <a href="{% url 'portada' %}" class="tm-color-white tm-btn-white-bordered">{% trans "Featured pizzas" %}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tm-section tm-position-relative">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"
+        class="tm-section-down-arrow">
+        <polygon fill="#ee5057" points="0,0  100,0  50,60"></polygon>
+      </svg>
+      {% block content %} {% endblock %}
+    </div>
+
+
+
+    <footer class="tm-bg-dark-blue">
+      <div class="container">
+        <div class="row">
+
+          <p class="col-sm-12 text-center tm-font-light tm-color-white p-4 tm-margin-b-0">
+            Copyright &copy; <span class="tm-current-year">2021</span> Mamma Mia Co.
+
+            - Design: <a rel="nofollow" href="https://www.tooplate.com" class="tm-color-primary tm-font-normal"
+              target="_parent">Tooplate</a></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+Mamma Mia
+{% endblock %}
+
+{% block tit_trian %}{% trans "The best pizzas at the best price" %}{% endblock %}
+
+{% block subtit_trian %}{% trans "Pizzas of all flavors for all tastes" %}{% endblock %}
+
+{% block content %}
+
+<div class="tm-section tm-section-pad tm-bg-gray" id="tm-section-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+        <div class="tm-article-carousel">
+
+          <article class="tm-bg-white mr-2 tm-carousel-item">
+            <img src="{% static 'img/' %}pizza-baconcrispy.jpg"  class="img-fluid img-detalle-main" alt="Foto de pizza">
+            <div class="tm-bg-white tm-p-4">
+
+              <form method="post" class="contact-form">
+              <div class="form-group">
+                <h3 class="text-uppercase tm-article-title-2">{% trans "Let's Start your order!" %}</h3>
+              </div>
+
+                <div class="form-group">
+                  <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder={% trans "Name" %}
+                    required="">
+                </div>
+                <div class="form-group">
+                  <input type="text" id="contact_surname" name="contact_surname" class="form-control"
+                    placeholder={% trans "Surname" %} required="">
+                </div>
+                <div class="form-group">
+                  <input type="text" id="contact_email" name="contact_email" class="form-control"
+                    placeholder={% trans "E-mail" %} required="">
+                </div>
+                <div class="form-group">
+                  <input type="text" id="contact_street" name="contact_street" class="form-control" placeholder={% trans "Street" %}
+                    required=""><br>
+                  <input id="contact_pCode" name="contact_pCode" class="form-control" placeholder = {% trans "Postal code" %} type="number" id="pCode" class="form-control" name="pCode" max="99999">
+                </div>
+                <div class="form-group">
+                  {% for pizza in lista_p|dictsort:"nombre" %}
+                  <input type="number" for="{{pizza.nombre|lower|cut:" "}}" id="quantity" name="q-{{pizza.nombre|lower|cut:" "}}" min="1" max="10">
+                  <label for="{{pizza.nombre|lower|cut:" "}}"> <a href="{% url 'detalle_pizza' pizza.id %}">{{pizza.nombre}}</a></label><br>
+                  {% empty %}
+                  <p>{% trans "No pizzas were found." %}</p>
+                  {% endfor %}<br>
+                </div>
+                <div class="form-group">
+                  <label for="hyt" class="form-control">{% trans "Select the day and time you want to receive your pizza" %}</label>
+                  <input type="datetime-local" class="form-control" id="hyt" name="hyt"required=""> <br>
+                  <!--label  class="form-control" >{% trans "Total price" %}:  €</label-->
+                  <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder={% trans "Comments" %} ></textarea>
+                </div>
+                {% csrf_token %}
+
+                <button type="submit" class="btn btn-primary tm-btn-primary" on-click=enviado({% trans "Your order has been received." %},contact_name, 5 , contact_street)>{% trans "Send Order Now" %}</button>
+
+              </form>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!--SIDEBAR O LO QUE SEA ESTO-->
+
+      <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 tm-recommended-container">
+        <div class="tm-bg-white">
+          <div class="tm-bg-primary tm-sidebar-pad">
+            <h3 class="tm-color-white tm-sidebar-title">{% trans "Our Pizzas" %}</h3>
+            <p class="tm-color-white tm-margin-b-0 tm-font-light">{% trans "In this places of the world" %}</p>
+          </div>
+          <div class="tm-sidebar-pad-2">
+            <a href="#" class="media tm-media tm-recommended-item">
+              <img src="{% static 'img/tn-img-01.jpg' %}" alt="Image">
+              <div class="media-body tm-media-body tm-bg-gray">
+                <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">{% trans "Europe" %}</h4>
+              </div>
+            </a>
+            <a href="#" class="media tm-media tm-recommended-item">
+              <img src="{% static 'img/tn-img-02.jpg' %}" alt="Image">
+              <div class="media-body tm-media-body tm-bg-gray">
+                <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">{% trans "Asia" %}</h4>
+              </div>
+            </a>
+            <a href="#" class="media tm-media tm-recommended-item">
+              <img src="{% static 'img/tn-img-03.jpg' %}" alt="Image">
+              <div class="media-body tm-media-body tm-bg-gray">
+                <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">{% trans "Africa" %}</h4>
+              </div>
+            </a>
+            <a href="#" class="media tm-media tm-recommended-item">
+              <img src="{% static 'img/tn-img-04.jpg' %}" alt="Image">
+              <div class="media-body tm-media-body tm-bg-gray">
+                <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">{% trans "South America" %}</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

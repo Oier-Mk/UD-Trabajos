@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+Mamma Mia
+{% endblock %}
+
+{% block tit_trian %}{% trans "Your order has been received!" %}{% endblock %}
+
+{% block subtit_trian %}{% trans "Please check your email for further detail." %}
+{% trans "Email sent to:" %} "{{recepient}}"
+{% endblock %}
+
+{% block content %}
+{% endblock %}

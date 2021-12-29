@@ -1,0 +1,39 @@
+{% extends "detalleBase.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block nombre %} <!--Parte que afecta al nombre del elemento-->
+{{masa.nombre}}
+{% endblock %}
+
+{% block mainImg %} <!--Parte que afecta a los enlaces de las imagenes del elemento-->
+<img src="{% static 'img/' %}masa-{{masa.nombre|lower|cut:" "}}.jpg" alt="{{masa.nombre}}" class="img-fluid img-detalle-main">
+{% endblock %}
+
+{% block attrbItems %} <!--Parte que afecta a los atributos del elemento-->
+  <li>{% trans "Thickness" %}: {{masa.grosormm}} mm</li>
+  <li>{% trans "Flour" %}: {{masa.tipoHarina}}</li>
+  <li>{% trans "Supplement" %}: +{{masa.supPrecio}}€</li>
+{% endblock %}
+
+{% block relLista %} <!--Lista con los elementos asociados-->
+{% trans "Pizzas" %}
+{% endblock %}
+
+{% block relListaDesc %} <!--Comentario sobre los elementos asociados-->
+{% trans "Discover what pizzas we have with this dough." %}
+{% endblock %}
+
+{% block listaItems %} <!--Lista con los elementos-->
+  {% for pizza in masa.pizza_set.all|dictsort:"nombre" %}
+  <a href="{% url 'detalle_pizza' pizza.id %}" class="media tm-media tm-recommended-item">
+    <img src="{% static 'img/' %}pizza-{{pizza.nombre|lower|cut:" "}}.jpg" class="img-fluid img-detalle-lista" alt="{{pizza.nombre}}">
+    <div class="media-body tm-media-body tm-bg-gray">
+      <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">{{pizza.nombre}} ({{pizza.precio}}€)</h4>
+    </div>
+  </a>
+  {% empty %} <!--En caso de que la lista este vacia-->
+    <p>{% trans "No pizzas were found." %}</p>
+  {% endfor %}
+
+{% endblock %}
