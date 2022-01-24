@@ -8,7 +8,7 @@ public class MainMail {
 		String receiver = "oiermentxaka@opendeusto.es";
 		String message = "This is a testing message that sends details using Gmail. Useful for Java projects!";
 		
-		MailSender.getInstance(receiver, args[9], args[10], args[11], args[12]).sendMessage(message);
+		MailSender.getInstance().sendMessage(receiver,message);
 
 	}
 

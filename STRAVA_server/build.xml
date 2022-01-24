@@ -16,10 +16,7 @@
 	<property name="google.IP" value="127.0.0.1"/>
 	<property name="google.port" value="1099"/>
 	<property name="google.name" value="googleServer"/>
-	<property name="mail.sender" value="deusto.sd@gmail.com"/>
-	<property name="mail.password" value="softwaredesign"/>
-	<property name="mail.host" value="smtp.gmail.com"/>
-	<property name="mail.port" value="587"/>
+	
 
 	<path id="classpath">
 		<fileset dir="${lib.dir}">
@@ -86,10 +83,6 @@
 			<arg value="${google.IP}"/>
 			<arg value="${google.port}"/>
 			<arg value="${google.name}"/>
-			<arg value="${mail.sender}"/>
-			<arg value="${mail.password}"/>
-			<arg value="${mail.host}"/>
-			<arg value="${mail.port}"/>
 		</java>
 	</target>
 	
@@ -107,10 +100,6 @@
 			<arg value="${google.IP}"/>
 			<arg value="${google.port}"/>
 			<arg value="${google.name}"/>
-			<arg value="${mail.sender}"/>
-			<arg value="${mail.password}"/>
-			<arg value="${mail.host}"/>
-			<arg value="${mail.port}"/>
 		</java>
 	</target>
 	
@@ -128,10 +117,6 @@
 			<arg value="${google.IP}"/>
 			<arg value="${google.port}"/>
 			<arg value="${google.name}"/>
-			<arg value="${mail.sender}"/>
-			<arg value="${mail.password}"/>
-			<arg value="${mail.host}"/>
-			<arg value="${mail.port}"/>
 		</java>
 	</target>
 	
@@ -149,10 +134,6 @@
 			<arg value="${google.IP}"/>
 			<arg value="${google.port}"/>
 			<arg value="${google.name}"/>
-			<arg value="${mail.sender}"/>
-			<arg value="${mail.password}"/>
-			<arg value="${mail.host}"/>
-			<arg value="${mail.port}"/>
 		</java>
 	</target>
 	

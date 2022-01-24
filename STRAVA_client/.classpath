@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" output="bin" path="src"/>
-	<classpathentry kind="var" path="JRE_LIB" sourcepath="JRE_SRC"/>
-	<classpathentry kind="lib" path="/Users/aidagomezbuenoberezo/Documents/sd-workspaces/UD-ProyectoSoftwareDesign/STRAVA_client/lib/commons-codec-1.15.jar"/>
-	<classpathentry kind="lib" path="/Users/mentxaka/Documents/Workspace/UD-SoftwareDesign/WSTW/STRAVA_client/lib/strava.jar"/>
-	<classpathentry kind="con" path="/Users/aidagomezbuenoberezo/Documents/sd-workspaces/UD-ProyectoSoftwareDesign/STRAVA_client/bin"/>
+	<classpathentry kind="var" path="JRE_LIB" rootpath="JRE_SRCROOT" sourcepath="JRE_SRC"/>
+	<classpathentry kind="lib" path="/Users/mentxaka/Repositories/UD-Trabajos/STRAVA_client/lib/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="/Users/mentxaka/Repositories/UD-Trabajos/STRAVA_client/lib/strava.jar"/>
+	<classpathentry kind="con" path="/Users/mentxaka/Repositories/UD-Trabajos/STRAVA_client/bin"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

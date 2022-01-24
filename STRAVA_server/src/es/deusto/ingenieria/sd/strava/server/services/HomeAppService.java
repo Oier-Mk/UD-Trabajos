@@ -43,7 +43,7 @@ public class HomeAppService {
 			c.addUsers(user);
 			ChallengeDAO.getInstance().save(c);
 			//TODO 
-			MailSender.getInstance(user.getMail(), args[9], args[10], args[11], args[12]).sendMessage("Your challenge: \n"+c.toString()+"\nWas created and stored ir our server.");
+			MailSender.getInstance().sendMessage(user.getMail(),"Your challenge: \n"+c.toString()+"\nWas created and stored ir our server.");
 			return true;
 		}catch (Exception e) {
 			e.printStackTrace();

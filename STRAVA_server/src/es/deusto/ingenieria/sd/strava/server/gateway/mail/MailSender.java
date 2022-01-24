@@ -12,42 +12,30 @@ import javax.mail.internet.MimeMessage;
 
 
 public class MailSender {
-	private String sender;
-	private String password;
-	private String host;
-	private String port;
 	private final String subject = "Testing the Java MailSender: Sending a message by email ...";
-	private String to;
-
 	private Properties props;
-
-	public MailSender(String sender, String host, String port) {
-		props = new Properties();
-		props.put("mail.smtp.user", sender);
-		props.put("mail.smtp.host", host);
-		props.put("mail.smtp.port", port);
-		props.put("mail.smtp.starttls.enable", "true");
-		props.put("mail.smtp.auth", "true");
-		props.put("mail.smtp.debug", "false");
-	}
 
 	private static MailSender instance;	
 
-	public static MailSender getInstance(String receiverEmail, String sender,String password, String host, String port) {
+	private MailSender() {
+		props = new Properties();
+		try {
+			props.load(MailSender.class.getClassLoader().getResourceAsStream("mail.properties"));
+		} catch (Exception e) {
+			System.out.println(" % Error loading mailsender.properties file: "+ e.getMessage());
+		}
+		
+	}
+	
+	public static MailSender getInstance() {
 		if (instance == null) {
-			instance = new MailSender(sender,host,port);
-			instance.to = receiverEmail;
-			instance.sender = sender;
-			instance.password = password;
-			instance.host = host;
-			instance.port = port;
+			instance = new MailSender();
 		}		
 		System.out.println(instance.toString());
-
 		return instance;
 	}	
 	
-	public String sendMessage(String text) {
+	public String sendMessage(String to, String text) {
 		try {
 			Authenticator auth = new SMTPAuthenticator();
 			Session session = Session.getInstance(props, auth);
@@ -56,7 +44,7 @@ public class MailSender {
 			MimeMessage msg = new MimeMessage(session);
 			msg.setText(text.trim());
 			msg.setSubject(subject);
-			msg.setFrom(new InternetAddress(sender));
+			msg.setFrom(new InternetAddress(props.getProperty("mail.smtp.user")));
 			msg.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
 			Transport.send(msg);
 			System.out.println("Message sent to: " + to);
@@ -68,14 +56,13 @@ public class MailSender {
 
 	private class SMTPAuthenticator extends javax.mail.Authenticator {
 		public PasswordAuthentication getPasswordAuthentication() {
-			return new PasswordAuthentication(sender, password);
+			return new PasswordAuthentication(props.getProperty("mail.smtp.user"), props.getProperty("mail.smtp.password"));
 		}
 	}
 
 	@Override
 	public String toString() {
-		return "MailSender [sender=" + sender + ", password=" + password + ", host=" + host + ", port=" + port
-				+ ", subject=" + subject + ", to=" + to + ", props=" + props + "]";
+		return "MailSender [sender=" + props.getProperty("mail.smtp.user") + ", password=" + props.getProperty("mail.smtp.password") + "]";
 	}
 	
 	
