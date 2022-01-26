@@ -22,6 +22,8 @@ import java.awt.FlowLayout;
 import java.awt.Color;
 import javax.swing.UIManager;
 import java.awt.event.ActionListener;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.awt.event.ActionEvent;
 import java.awt.Font;
@@ -274,6 +276,7 @@ public class SetUpChallengeW extends JFrame {
 			}
 		}else {
 			totalDuration = "";
+			
 		}
 		return totalDuration;
 	}
@@ -286,26 +289,33 @@ public class SetUpChallengeW extends JFrame {
 		int ms = Integer.parseInt((String)jcbMonthStart.getSelectedItem());
 		int df = Integer.parseInt((String)jcbDayFinish.getSelectedItem());
 		int ds = Integer.parseInt((String)jcbDayStart.getSelectedItem());
-		if(yf == ys) { //Same year
-			if(mf == ms) { //Same month
-				if(df>ds) { //Finish Date > Start Date
-					panelCheck();
-					//TODO
-					//long token, String name, Date start, Date end, double distance, double duration, String sport) throws Exception;
-					h.setupChallenge(l.getToken(), jtfName.getText(), new Date(ys,ms,ds), new Date(yf,mf,df), Double.parseDouble(jtfDist.getText()), Double.parseDouble(calDuration()), jcbSport.getSelectedItem().toString());
-				}else {
-					panelError();
-				}
-			}else if (mf > ms) { //Finish month > Start Month
-				panelCheck();
-			}else {
-				panelError();
+		
+		String dias = calDuration();
+		int dia = Integer.parseInt(dias.substring(0,1));
+		int mes = 0;
+		int anyo = 0;
+		try {
+		if(dias.length()>6) {
+			mes = Integer.parseInt(dias.substring(8,9));
+			if(dias.length()>18) {
+				anyo = Integer.parseInt(dias.substring(17,18));
 			}
-		}else if (yf > ys) { //Finish year > Start year
-			panelCheck();
-		}else {
-			panelError();
-		}
+		}		
+		}catch(Exception e){System.out.println("errorparses");}
+		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");	
+		Date d1 = null;
+		Date d2 = null; 
+		try {
+			d1 = format.parse ( ys+"-"+ms+"-"+ds );
+			d2 = format.parse ( yf+"-"+mf+"-"+df );
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}  
+		//long token, String name, Date start, Date end, double distance, double duration, String sport) throws Exception;
+		h.setupChallenge(l.getToken(), jtfName.getText(), d1, d2, Double.parseDouble(jtfDist.getText()), dia+mes*30+anyo*365, jcbSport.getSelectedItem().toString());
+		this.dispose();
+		System.out.println(d1);
 	}
 
 	public void panelCheck() {

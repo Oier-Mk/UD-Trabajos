@@ -2,24 +2,6 @@ package es.deusto.ingenieria.sd.strava.client.gui;
 
 import java.util.Date;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextArea;
-
-import java.awt.BorderLayout;
-import java.awt.GridLayout;
-import java.awt.Color;
-
-import java.awt.FlowLayout;
-import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import javax.swing.ImageIcon;
-
 import es.deusto.ingenieria.sd.strava.client.controller.LoginController;
 
 public class LoginDialog {	

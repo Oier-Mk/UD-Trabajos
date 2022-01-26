@@ -9,6 +9,8 @@ import es.deusto.ingenieria.sd.strava.server.data.dto.UserDTO;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class RegisterW extends JFrame{
@@ -54,7 +56,15 @@ public class RegisterW extends JFrame{
 			@SuppressWarnings("deprecation")
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				l.register(1, mail.getText(), password.getText(), name.getText(), new Date((int)day.getValue(),(int)month.getValue(),(int)year.getValue()),(double)((int)weight.getValue()/100), (int)height.getValue(), (int)MinHR.getValue(), (int)MaxHR.getValue());
+				SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");	
+				Date d1 = null;
+				try {
+					d1 = format.parse( year.getValue()+"-"+month.getValue()+"-"+day.getValue() );
+				} catch (ParseException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}  
+				l.register(1, mail.getText(), password.getText(), name.getText(), d1,(double)((int)weight.getValue()/100), (int)height.getValue(), (int)MinHR.getValue(), (int)MaxHR.getValue());
 				dispose();
 				new HomeW(h.getUser(l.getToken()), l, h) ;
 			}

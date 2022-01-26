@@ -32,7 +32,7 @@ public class MainProgram {
 		HomeController homeController = new HomeController(serviceLocator);			
 		HomeWindow homeWindow = new HomeWindow(loginDialog,homeController);
 
-		prueba(loginDialog,homeWindow);		
+		//prueba(loginDialog,homeWindow);		
 		//prueba2(loginDialog,homeWindow);		
 
 		String mail = null;
@@ -43,7 +43,6 @@ public class MainProgram {
 
 	}
 	private static void prueba(LoginDialog loginDialog, HomeWindow homeWindow) {
-
 		try {
 			SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 			Date d = format.parse ( "2009-12-31" );    

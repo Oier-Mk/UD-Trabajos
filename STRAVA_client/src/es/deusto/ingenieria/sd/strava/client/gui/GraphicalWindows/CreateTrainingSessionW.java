@@ -12,6 +12,8 @@ import javax.swing.JOptionPane;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import javax.swing.JTextField;
@@ -217,6 +219,7 @@ public class CreateTrainingSessionW extends JFrame {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				System.out.println("validacion de sesion");
 				checkCreate();
 			}
 		});
@@ -230,27 +233,21 @@ public class CreateTrainingSessionW extends JFrame {
 		int hf = Integer.parseInt((String)jcbHours2.getSelectedItem());
 		int ms = Integer.parseInt((String)jcbMinutes1.getSelectedItem());
 		int mf = Integer.parseInt((String)jcbMinutes2.getSelectedItem());
-		if(hs == hf) {
-			if(mf > ms) {
-				if(jtfTitle.getText() != "" && jtfDist.getText() != "") {
-					panelCheck();
-					//long token, String title, String sport, double distance, Date date, int hours, int minutes, double duration
-					h.createTrainingSession(l.getToken(), jtfTitle.getText(), jcbSport.getSelectedItem().toString(), Double.parseDouble(jtfDist.getText()), new Date((int)jcbYear.getSelectedItem(),(int)jcbMonth.getSelectedItem(),(int)jcbDay.getSelectedItem()), hf, mf, (hf-hs + (mf-ms)/60) );
-				}else {
-					panelInfo();
-				}
-			}else {
-				panelError();
-			}
-		}else if(hs < hf) {
-			if(jtfTitle.getText() != "" && jtfDist.getText() != "") {
-				panelCheck();
-			}else {
-				panelInfo();
-			}
-		}else {
-			panelError();
-		}
+		
+		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");	
+		Date d1 = null;
+		try {
+			d1 = format.parse ( jcbYear.getSelectedItem()+"-"+jcbMonth.getSelectedItem()+"-"+jcbDay.getSelectedItem());
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
+		
+		System.out.println(d1.toString());
+		//long token, String title, String sport, double distance, Date date, int hours, int minutes, double duration
+		
+		h.createTrainingSession(l.getToken(), jtfTitle.getText(), jcbSport.getSelectedItem().toString(), Double.parseDouble(jtfDist.getText()), d1, hf, mf, (hf-hs + (mf-ms)/60) );
+		dispose();
 	}
 
 
